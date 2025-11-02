@@ -1,3 +1,11 @@
+This version introduces an updated workflow for importing AI models.
+If an AI model contains class definitions, these classes are now automatically assigned during the auto-labeling process. Additionally, class definitions can be saved and loaded together with the project for better portability and consistency.
+
+A bug was also fixed that previously prevented images from being marked as Verified after they were edited.
+
+
+
+
 # Yoable - AI-Assisted Image Labeling Tool 🖼️🤖
 
 Yoable is a **powerful yet simple image labeling tool** built in **C# .NET 8.0**, designed for **bounding box annotation** and **AI-assisted auto-labeling**. It supports manual labeling as well as **YOLOv5 & YOLOv8 ONNX models** for automatic object detection. 
